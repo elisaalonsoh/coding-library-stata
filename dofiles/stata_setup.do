@@ -12,8 +12,8 @@
 
 /*	TABLE OF CONTENTS
 
-1.		SETUP
-2.		SECTION
+	1. SETUP
+	2. SECTION
 		2.1 Sub-section
 */
 
