@@ -2,37 +2,37 @@
 *******************************************************************************
 	Purpose:					
 	Author:					Elisa Alonso Herrero (EA)			
-	Created on:				Date (Updated on:)	
+	Created on:				Date 	
 	Last modification:		Date (who and what)								
 	Status:					in process 
 
 	Comments: 				1. 
+	Output:					""
 ******************************************************************************
 ******************************************************************************/
 
 /*	TABLE OF CONTENTS
 
-	1. SETUP
-	2. SECTION
-		2.1 Sub-section
+	0. SETUP
+	1. SECTION
+		1.1 Sub-section
 */
 
 /*  INPUT FILES
 	- "${rawdata}/file"
 */
 
-/*  OUTPUT FILES
-	- "${processed_data}/file"				// Brief description
-*/
+********************************************************************************
 
+**# 						0. SETUP
 
-/*=====================================================================
-							[1. SETUP]
-=======================================================================*/
+********************************************************************************
 
 clear all
+clear matrix
 version 17 
 set more off, permanently
+capture log close
 
 ** DEFINE DIRECTORY STRUCTURE:
 	local user = c(username)
@@ -53,23 +53,28 @@ set more off, permanently
 	global output_gph ""
 	global output_log ""
 
+* Log
+	capture log close
+	log using "${output_log}/logname", text replace
+
 ** PACKAGES:
 
 ** FIGURE SCHEME: 
 * Options: uncluttered, plotplain
 set scheme uncluttered
 
+**********
+* COLLECT GLOBALS (from all dofile)
+**********
 
-* Log
-	capture log close
-	log using "${output_log}/logname", text replace
 
+********************************************************************************
 
-/*=====================================================================*/
-**#  						[2. SECTION]
-/*=======================================================================*/
+**# 						1. SECTION
 
-**# 2.1 SUBSECTION -----------------------------------------------------
+********************************************************************************
+
+**# 1.1 SUBSECTION -----------------------------------------------------
 
 
 log close
