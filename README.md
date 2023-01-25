@@ -8,8 +8,8 @@ This table of contents shows the basic structure of the library. Since it is in 
 
 ## STATA setup and data preparation
 
-1. [Stata Basics](./content/stata_basics.ipynb) : ex. basic dofile template, schemes
-2. [Basic Data Cleaning](./content/data_cleaning.ipynb): ex. missing data, labelling,
+1. [Stata Basics](./content/stata_basics.md) : ex. basic dofile template, schemes
+2. [Basic Data Cleaning](./content/data_cleaning.md): ex. missing data, labelling,
 3. [Advanced: indices and multiple imputation]()
 
 ## Descriptives
@@ -20,6 +20,6 @@ This table of contents shows the basic structure of the library. Since it is in 
 ## Main analysis
 
 1. [General regression outputs](./content/regression.md) : ex. tables, coefficient plots.
-2. [Working with RCTs](./content/rct.ipynb) : ex. dealing with attrition, balance tables.
+2. [Working with RCTs](./content/rct.md) : ex. dealing with attrition, balance tables.
 3. [Event studies](./content/event_study.ipynb)
 4. Weirder figures: ex. bubble scatter
