@@ -27,7 +27,3 @@ Most figures can be done with the [coefplot](http://repec.sowi.unibe.ch/stata/co
 |                                                                        |
 
 
-
-### TABLES:
-
-
