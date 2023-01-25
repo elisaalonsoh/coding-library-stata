@@ -34,7 +34,9 @@ version 17
 set more off, permanently
 capture log close
 
+********
 ** DEFINE DIRECTORY STRUCTURE:
+*******
 	local user = c(username)
 	
 	if "`user'"=="elisa"{
@@ -49,15 +51,17 @@ capture log close
 	global rawdata ""
 	global processed_data ""
 	global code ""
-	global output_tbl ""
-	global output_gph ""
+	global tables ""
+	global figures ""
 	global output_log ""
 
 * Log
 	capture log close
 	log using "${output_log}/logname", text replace
 
+*********
 ** PACKAGES:
+*********
 
 ** FIGURE SCHEME: 
 * Options: uncluttered, plotplain
@@ -70,7 +74,7 @@ set scheme uncluttered
 
 ********************************************************************************
 
-**# 						1. SECTION
+**# 						[1. SECTION]
 
 ********************************************************************************
 
