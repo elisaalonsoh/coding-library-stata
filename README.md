@@ -8,16 +8,17 @@ The following table of contents shows the basic structure of the library. Since 
 
 1. [Stata Basics](./content/stata_basics.md) : ex. basic dofile template, schemes
 2. [Basic Data Cleaning](./content/data_cleaning.md): ex. missing data, labelling,
-3. [Advanced: indices and multiple imputation]()
+3. More Data Cleaning: indices and multiple imputation
 
 ## Descriptives
 
-1. [Distribution](./content/distribution.ipynb) : ex. histograms, k- densities
+1. Distribution : ex. histograms, k- densities
 2. Correlation
 
 ## Main analysis
 
-1. [General regression outputs](./content/regression.md) : ex. tables, coefficient plots.
+1. Basis of any analysis:
+   1. [Model selection]: ex. t-test. F-tests, and Lasso.
+   2. [Visualizing regression outputs](./content/regression.md) : ex. tables, coefficient plots.
 2. [Working with RCTs](./content/rct.md) : ex. dealing with attrition, balance tables.
 3. [Event studies](./content/event_study.ipynb)
-4. Weirder figures: ex. bubble scatter
