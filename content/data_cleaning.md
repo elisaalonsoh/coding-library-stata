@@ -31,7 +31,7 @@ To drop observations with missing numeric data use `drop if var == .` and for st
 #### Filling missing periods in a panel data:
 Sometimes we want to have a balanced panel even if the variables of interest are missing (or later recoded as 0, or some value), but not all periods appear in our dataset. Once we have `xtset` our data, we can use the command `tsfill` to create the new missing time periods for each of our ids (it can also be used with only time data).
 
-## Labeling
+## Labeling and notes
 
 - Check existing labels in dataset: `codebook`, or `label list var`/ `labelbook var` for specific value labels
 - Label a variable: `label variable var "label"`
@@ -41,6 +41,10 @@ Sometimes we want to have a balanced panel even if the variables of interest are
          - Add new value-label pairs by specifying them and adding the option `, add` at the end.
          - Modify existing value-label pairs by specifying them and adding the option `, modify` at the end.
     2. Assign that label value to variable: `label value var var_values`. *Note*: you can use the same value label for different variables, just specify a *varlist* instead (ex. for Likert scales)
+- Add notes to a variable: either for further information, or to have an alternative name of the variable that displays better in figures and that allows me to avoid having to specify it every time.
+  1. Add a note: `notes var: "Note"`
+  2. Save note in local: `local note ``var'[note1]'`
 ---
 **References**: 
 - Labelling: [basic labeling](https://wlm.userweb.mwn.de/Stata/wstatlab.htm)
+- Notes: [notes](https://povertyaction.github.io/guides/cleaning/documentation/variablenotes/#:~:text=Notes%20can%20be%20added%20into,using%20%60VARIABLE%5Bnote1%5D'%20.)

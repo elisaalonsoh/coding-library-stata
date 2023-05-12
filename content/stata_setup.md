@@ -1,7 +1,7 @@
 # STATA BASICS
 As much as we all complain about Stata, it does make coding pretty simple for most things you need in econ. 
 
-First, the following [template](../dofiles/stata_setup.do) shows the basic set up I like to use for dofiles. Some comments:
+First, the following [template](../code/stata_setup.do) shows the basic set up I like to use for code. Some comments:
 - For collaborations: write your name/abbrev when you do a modification so we can know who to ask.
 
 ## Miscellaneous tips 
